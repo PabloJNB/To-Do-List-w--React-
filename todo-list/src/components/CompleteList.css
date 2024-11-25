@@ -1,0 +1,24 @@
+.completeList {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #a1a3e1e4;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 250px;
+    /* Ocupa máximo el 80% del alto de la pantalla */
+    overflow-y: auto;
+    /* Activa el scroll si el contenido excede el tamaño */
+    padding: 10px;
+}
+
+.itemsComplete {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemsComplete::-webkit-scrollbar {
+    display: none;
+    /* Oculta la barra de scroll */
+}

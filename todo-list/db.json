@@ -1,0 +1,39 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "name": "📊 Finish project report",
+      "isCompleted": true,
+      "description": "📝 Complete the final report for the project.",
+      "creator": "Bob"
+    },
+    {
+      "id": "3",
+      "name": "🏥 Schedule doctor appointment",
+      "isCompleted": true,
+      "description": "👨‍⚕️ Annual check-up with Dr. Smith.",
+      "creator": "Charlie"
+    },
+    {
+      "id": "5",
+      "name": "📖 Read a book",
+      "isCompleted": true,
+      "description": "📚 Finish reading 'The Great Gatsby'.",
+      "creator": "Ethan"
+    },
+    {
+      "id": "9bd2",
+      "name": "s",
+      "description": "s",
+      "isCompleted": false,
+      "creator": "s"
+    },
+    {
+      "id": "d9ef",
+      "name": "KIdd Hood",
+      "description": "🍿",
+      "isCompleted": true,
+      "creator": "kh"
+    }
+  ]
+}

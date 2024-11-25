@@ -1,0 +1,41 @@
+.Add-Form {
+    background-color: #c7d5afe4;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.labelContainer label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+form button {
+    margin: 10px;
+    background-color: rgb(202, 227, 73);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: rgb(214, 255, 7);
+    transform: scale(1.05);
+}
