@@ -10,6 +10,7 @@
     overflow-y: auto;
     /* Activa el scroll si el contenido excede el tamaño */
     padding: 10px;
+    scrollbar-width: none;
 }
 
 .itemsComplete {

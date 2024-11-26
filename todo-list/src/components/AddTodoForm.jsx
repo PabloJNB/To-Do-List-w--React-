@@ -1,6 +1,6 @@
-import React, { useState } from 'react'; // Importa React y useState para manejar el estado local
-import "./AddTodoForm.css"; // Estilos específicos del formulario
-import { useModal } from '../context/ModalContext'; // Contexto para manejar el modal
+import React, { useState } from 'react';
+import "./AddTodoForm.css";
+import { useModal } from '../context/ModalContext';
 
 // Componente para agregar nuevas tareas
 function AddTodoForm({ onAddTask }) {
