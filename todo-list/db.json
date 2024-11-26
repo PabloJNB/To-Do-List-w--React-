@@ -34,6 +34,19 @@
       "description": "🍿",
       "isCompleted": true,
       "creator": "kh"
+    },
+    {
+      "id": "817c",
+      "name": "sigue el c",
+      "description": "sigue el canal de solo nosotras en whats",
+      "isCompleted": false,
+      "creator": "sigue el c"
+    },
+    {
+      "id": "e85c",
+      "name": "KIdd Hood",
+      "description": "sigue el canal de solo nosotras en whatsapp: https://whatsapp.com/chan",
+      "creator": "KiddHood"
     }
   ]
 }

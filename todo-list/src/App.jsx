@@ -8,7 +8,7 @@ import CompleteList from "./components/CompleteList"
 function App() {
   // Estados principales:
   const [listaToDo, setListaToDo] = useState([]); // Lista de tareas (estado central de la app)
-  const { openModal } = useModal();
+  const { openModal } = useModal(); // Trae la funcion openModal del Context
 
   // Carga inicial de las tareas desde el servidor
   useEffect(() => {

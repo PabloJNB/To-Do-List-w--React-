@@ -11,7 +11,7 @@ function AddTodoForm({ onAddTask }) {
         isCompleted: false,
         creator: "",
     });
-    //Maneja el cambio en el valor del input
+    //Maneja el cambio en el valor del input *actualiza lo que voy escribiendo*
     const handleChange = (event) => {
         const { name, value } = event.target;
         setFormData((prevData) => ({
@@ -21,10 +21,11 @@ function AddTodoForm({ onAddTask }) {
     };
     // Maneja el formulario 
     const handleSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault(); //evita que se recargue la pagina
         if (formData.name && formData.description && formData.creator) {
             onAddTask(formData); // Llamamos a la función para agregar tarea
-            setFormData({ name: "", description: "", creator: "" }); // Limpiamos el formulario
+            setFormData({ name: "", description: "", creator: "" });
+            // Limpiamos el formulario
         } else {
             openModal("Por favor, completa todos los campos.");
         }
@@ -54,7 +55,7 @@ function AddTodoForm({ onAddTask }) {
                             name="description"
                             value={formData.description}
                             onChange={handleChange}
-                            maxLength={40}
+                            maxLength={70}
                         />
                     </label>
                     <label htmlFor="creator">
@@ -65,7 +66,6 @@ function AddTodoForm({ onAddTask }) {
                             name="creator"
                             value={formData.creator}
                             onChange={handleChange}
-                            minLength={0}
                             maxLength={10}
                         />
                     </label>
