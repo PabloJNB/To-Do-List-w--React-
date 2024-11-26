@@ -10,9 +10,6 @@ Este proyecto es una aplicación de gestión de tareas desarrollada en **React**
 - Interfaz sencilla y eficiente.
 - Implementación de **React Hooks** para el manejo del estado.
 - Código estructurado en componentes reutilizables.
-- Preparación para futuras integraciones con APIs reales.
-
----
 
 ## **Instalación**
 
