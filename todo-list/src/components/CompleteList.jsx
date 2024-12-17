@@ -9,9 +9,9 @@ function CompleteList({ listaToDo, deleteTask }) {
         .filter(tarea => tarea.isCompleted) // Filtra solo las tareas completadas
         .map((tarea) => ( // Mapea cada tarea completada en un componente CompleteItem
             <CompleteItem
-                key={tarea.id} // Identificador único para React
+                key={tarea._id} // Identificador único para React
                 tarea={tarea} // Pasa la tarea completa como prop
-                onClick={() => deleteTask(tarea.id)} // Llama a la función deleteTask con el ID de la tarea
+                onClick={() => deleteTask(tarea._id)} // Llama a la función deleteTask con el ID de la tarea
             />
         ));
 

@@ -8,10 +8,10 @@ function TodoList({ listaToDo, deleteTask, completeTask }) {
         .filter(tarea => !tarea.isCompleted) // Filtra solo las tareas no completadas
         .map((tarea) => ( // Mapea cada tarea en un componente TodoItem
             <TodoItem
-                key={tarea.id} // Identificador único necesario para listas en React
+                key={tarea._id} // Identificador único necesario para listas en React
                 tarea={tarea} // Pasa la tarea completa como prop
-                onDeleteClick={() => deleteTask(tarea.id)} // Llama a la función deleteTask con el ID de la tarea
-                onCompleteClick={() => completeTask(tarea.id)} // Llama a la función completeTask con el ID de la tarea
+                onDeleteClick={() => deleteTask(tarea._id)} // Llama a la función deleteTask con el ID de la tarea
+                onCompleteClick={() => completeTask(tarea._id)} // Llama a la función completeTask con el ID de la tarea
             />
         ));
 
