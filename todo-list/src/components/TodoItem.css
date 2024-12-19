@@ -4,7 +4,7 @@
     flex-direction: column;
     border: solid 2px black;
     border-radius: 5px;
-    background-color: #e0a8a8dc;
+    background-color: #7A9E9F;
     height: 200px;
 }
 
@@ -29,6 +29,7 @@
     border: 2px solid black;
     border-radius: 5px;
     padding: 0 5px;
+    margin-bottom: 5px;
 }
 
 .completeButton:hover {
@@ -42,6 +43,7 @@
     border: 2px solid black;
     border-radius: 5px;
     padding: 0 5px;
+    margin-bottom: 5px;
 }
 
 .deleteButton:hover {

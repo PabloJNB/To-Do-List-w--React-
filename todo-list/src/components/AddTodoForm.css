@@ -1,5 +1,5 @@
 .Add-Form {
-    background-color: #c7d5afe4;
+    background-color: #e3eccca1;
     border: solid 2px black;
     border-radius: 5px;
     height: 250px;
@@ -29,13 +29,13 @@ form {
 
 form button {
     margin: 10px;
-    background-color: rgb(202, 227, 73);
+    background-color: #abc0eb;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
 
 form button:hover {
-    background-color: rgb(214, 255, 7);
+    background-color: #7A9E9F;
     transform: scale(1.05);
 }
