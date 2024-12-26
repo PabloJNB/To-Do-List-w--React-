@@ -75,7 +75,7 @@ function App() {
   // *** Función para completar una tarea ***
   const completeTask = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/todos/update/${id}`, {
+      const response = await fetch(`http://localhost:5000/todos/complete/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
